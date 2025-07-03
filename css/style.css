@@ -62,3 +62,30 @@ form input,
 form textarea {
     border-radius: 8px;
 }
+
+/* === TAMPILAN TIPE RUMAH === */
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card {
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* === TAMPILAN BLOG === */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card .btn {
+    margin-top: 10px;
+}

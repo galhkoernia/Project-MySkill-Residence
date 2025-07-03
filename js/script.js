@@ -19,4 +19,10 @@ gsap.from("h4, h6", {
     stagger: 0.2
 });
 
+gsap.from("h2, h5", {
+    duration: 1,
+    y: 40,
+    opacity: 0,
+    stagger: 0.2
+});
 
