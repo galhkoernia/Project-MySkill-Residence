@@ -1,14 +1,11 @@
+/* === TAMPILAN HOME === */
 body {
     font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: #f8f9fa;
+    background-color: #fefefe;
+    color: #333;
 }
 
-h2 {
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
+/* Navbar */
 .navbar-brand span {
     color: #0d6efd;
 }
@@ -20,4 +17,48 @@ h2 {
 
 .nav-link:hover {
     color: #0d6efd;
+}
+
+/* === TAMPILAN TENTANG KAMI === */
+.logo-img {
+    max-width: 200px;
+    height: auto;
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #0d6efd;
+}
+
+h5 {
+    font-weight: bold;
+    margin-top: 25px;
+    color: #333;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* === TAMPILAN KONTAK KAMI === */
+
+section .fa {
+    margin-bottom: 10px;
+    color: #0d6efd;
+}
+
+h6 {
+    font-weight: 600;
+    margin-top: 10px;
+    color: #333;
+}
+
+form input,
+form textarea {
+    border-radius: 8px;
 }
